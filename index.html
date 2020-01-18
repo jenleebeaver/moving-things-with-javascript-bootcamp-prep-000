@@ -31,10 +31,10 @@ console.log(leftNumbers);
         var leftNumbers = dodger.style.left.replace('px', '')
         var left = parseInt(leftNumbers, 10)
 console.log(left+1);
-
+        if (right < 0) {
         dodger.style.right = `${left + 1}px`
         dodger.style.right > '0px'
-
+      }
         // if (right > 0) {
         //   dodger.style.right = `${left + 1}px`
         // }
